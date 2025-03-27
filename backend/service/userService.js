@@ -14,6 +14,7 @@ async function getUser(username){
 }
 
 async function createUser(username, password) {
+
     const hashedPassword = await bcrypt.hash(password, saltNumber);
     return await userDAO.createUser(username, hashedPassword);
 }
@@ -30,4 +31,9 @@ async function updateUser(userId, username, password){
     return result;
 }
 
-module.exports = { getUser, createUser, updateUser };
+async function deleteUser(user_id) {
+    return await userDAO.deleteUser(user_id);
+}
+
+module.exports = { getUser, createUser, updateUser, deleteUser};
+

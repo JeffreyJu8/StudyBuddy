@@ -8,6 +8,15 @@ const { getJwtSecret } = require("../util/secretKey");
 const validateLoginMiddleware = require("../middleware/loginMiddleware");
 const bcrypt = require("bcrypt");
 
+
+router.get("/", authenticateToken, async (req, res) => {
+    const user = req.user;
+
+    res.status(201).json(user);
+})
+
+
+// login endpoint
 router.post("/login", validateLoginMiddleware, async (req, res) => {
     const { username, password } = req.body;
     // console.log(username, password);
@@ -28,6 +37,8 @@ router.post("/login", validateLoginMiddleware, async (req, res) => {
     res.status(200).json({message: "You have logged in!", token, user_id: data.user_id});
 })
 
+
+// logout endpoint
 router.post("/logout", authenticateToken, (req, res) => {
     console.log("logging out");
 
@@ -51,6 +62,7 @@ router.post("/register", async (req, res) => {
     }
 });
 
+
 router.put("/update", authenticateToken, async (req, res) => {
     try {
         const userId = req.user.user_id; 
@@ -70,6 +82,34 @@ router.put("/update", authenticateToken, async (req, res) => {
         res.status(500).json({ message: "Internal server error" });
     }
 });
+
+router.delete("/delete", authenticateToken, async (req, res) => {
+    try {
+        const { username } = req.user;
+
+        if (!username) {
+            return res.status(400).json({ message: "Username is required" });
+        }
+
+        const existingUser = await userService.getUser(username); // Check if the user exists
+        if (!existingUser) {
+            return res.status(400).json({ message: "User does not exist" });
+        }
+
+        const { id } = req.user; 
+
+        if (!id) {
+            return res.status(400).json({ message: "User ID is required" });
+        }
+
+        await userService.deleteUser(id);
+        res.status(200).json({ message: "User deleted successfully" });
+    } catch (error) {
+        console.error("Delete error:", error);
+        res.status(500).json({ message: "Internal server error" });
+    }
+});
+
 
 
 module.exports = router;
