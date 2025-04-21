@@ -43,7 +43,7 @@ function ViewExamSetPage(){
                     headers: {Authorization: `Bearer ${token}`}
                 });
 
-                // console.log(response);
+                console.log(response);
 
                 setExamSet(response.data);
             }catch(err){

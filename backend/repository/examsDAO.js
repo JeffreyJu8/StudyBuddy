@@ -34,7 +34,7 @@ async function saveExamSetToS3(userId, setId, examSetName, examSetJson) {
 
   try {
     await s3Client.putObject(params).promise();
-    logger.info(`Flashcard set file saved to S3 at ${params.Key}`);
+    logger.info(`Exam set file saved to S3 at ${params.Key}`);
   } catch (err) {
     logger.error(`Failed to save flashcard set to S3 at ${params.Key}`, err);
     throw err;
@@ -73,36 +73,35 @@ async function getExamSet(setName, userId){
 }
 
 
-async function getAllSets(userId){
+async function getAllSets(userId) {
+  const params = {
+      Bucket: BUCKET_NAME,
+      Prefix: `exams/${userId}/`, // Add a trailing slash to target "folders"
+      Delimiter: '/'
+  };
 
-    const params = {
-        Bucket: BUCKET_NAME,
-        Prefix: `exams/${userId}`
-    }
+  try {
+      const data = await s3Client.listObjectsV2(params).promise();
+      // console.log("data: ", data);
 
-    try{    
-        const data = await s3Client.listObjectsV2(params).promise();
-        
-        if (data.Contents) {
-          const setNames = data.Contents.map(item => {
-              const parts = item.Key.split('/');
-             
-              if (parts.length > 2) {
-                  return parts[2];
-              }
-              return null;
-          }).filter(name => name !== null); 
+      if (data.CommonPrefixes) {
+          const setNames = data.CommonPrefixes.map(cp => {
+              const fullPrefix = cp.Prefix;
+              const parts = fullPrefix.split('/');
+              return parts[parts.length - 2];
+          });
 
-          logger.info("Extracted set names: ", setNames);
+          // console.log("Extracted set names: ", setNames);
           return setNames;
-        } else {
+      } else {
           return [];
       }
-    }catch(err){
-        logger.error(`Failed to get all sets for ${userId}`, err);
-        throw err;
-    }
+  } catch (err) {
+      logger.error(`Failed to get all sets for ${userId}`, err);
+      throw err;
+  }
 }
+
 
 async function assignExam(examSet, examId, teacherId, studentId) {
     const getParams = {

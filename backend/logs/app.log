@@ -217,3 +217,233 @@
 [2025-04-21T19:10:54.322Z] INFO: All Sets: Space 1,Space 2,biology 1
 [2025-04-21T19:10:54.331Z] INFO: Extracted set names: 
 [2025-04-21T19:10:54.332Z] INFO: All Sets: Space 1,Space 2,biology 1
+[2025-04-21T19:22:27.627Z] INFO: Fetching user with username: test5
+[2025-04-21T19:22:27.999Z] INFO: Fetching user with username: test5
+[2025-04-21T19:22:28.417Z] INFO: Fetching user with username: test5
+[2025-04-21T19:22:28.504Z] INFO: User logged in: test5
+[2025-04-21T19:22:30.038Z] INFO: User fetched: test5
+[2025-04-21T19:22:30.521Z] INFO: Extracted set names: 
+[2025-04-21T19:22:30.521Z] INFO: All Sets: Space 1,Space 2,biology 1,react
+[2025-04-21T19:22:45.954Z] INFO: User fetched: test5
+[2025-04-21T19:22:45.957Z] INFO: User fetched: test5
+[2025-04-21T19:22:46.188Z] INFO: Extracted set names: 
+[2025-04-21T19:22:46.188Z] INFO: All Sets: Space 1,Space 2,biology 1,react
+[2025-04-21T19:22:46.192Z] INFO: Extracted set names: 
+[2025-04-21T19:22:46.192Z] INFO: All Sets: Space 1,Space 2,biology 1,react
+[2025-04-21T19:23:00.325Z] ERROR: Gemini error: getGeminiKey is not defined
+[2025-04-21T19:23:30.261Z] ERROR: Gemini error: getGeminiKey is not defined
+[2025-04-21T19:24:45.797Z] ERROR: Gemini error: getGeminiKey is not defined
+[2025-04-21T19:24:54.829Z] ERROR: Gemini error: getGeminiKey is not a function
+[2025-04-21T19:25:03.498Z] ERROR: Gemini error: getGeminiKey is not a function
+[2025-04-21T19:26:03.636Z] INFO: Examss generated for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:26:32.933Z] INFO: Saving exam set 'Space 1' for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.
+[2025-04-21T19:26:33.224Z] INFO: Flashcard set file saved to S3 at exams/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0/Space 1/fdf90fc8-31f0-44b8-a538-472f02c5b7e9.json
+[2025-04-21T19:26:33.502Z] INFO: Metadata for flashcard set 'Space 1' (ID: fdf90fc8-31f0-44b8-a538-472f02c5b7e9) saved for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.
+[2025-04-21T19:26:33.502Z] INFO: Exam set 'Space 1' saved successfully for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.
+[2025-04-21T19:26:39.005Z] INFO: User fetched: test5
+[2025-04-21T19:26:39.154Z] INFO: Extracted set names: 
+[2025-04-21T19:26:39.155Z] INFO: All Sets: Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:26:47.102Z] INFO: User fetched: test5
+[2025-04-21T19:26:47.113Z] INFO: User fetched: test5
+[2025-04-21T19:26:47.242Z] INFO: Extracted set names: 
+[2025-04-21T19:26:47.242Z] INFO: All Sets: Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:26:47.250Z] INFO: Extracted set names: 
+[2025-04-21T19:26:47.251Z] INFO: All Sets: Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:26:53.558Z] INFO: User fetched: test5
+[2025-04-21T19:26:53.570Z] INFO: User fetched: test5
+[2025-04-21T19:26:53.711Z] INFO: Extracted set names: 
+[2025-04-21T19:26:53.711Z] INFO: All Sets: Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:26:53.715Z] INFO: Extracted set names: 
+[2025-04-21T19:26:53.715Z] INFO: All Sets: Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:26:56.090Z] INFO: User fetched: test5
+[2025-04-21T19:26:56.098Z] INFO: User fetched: test5
+[2025-04-21T19:26:56.222Z] INFO: Extracted set names: 
+[2025-04-21T19:26:56.222Z] INFO: All Sets: Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:26:56.229Z] INFO: Extracted set names: 
+[2025-04-21T19:26:56.230Z] INFO: All Sets: Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:27:46.637Z] INFO: Fetched flashcard set names for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0: , Biology 4, Biology 5, Biology 6, Biology 7, biology 6, react
+[2025-04-21T19:27:46.637Z] INFO: Retrieved all flashcard sets for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:27:47.963Z] WARN: Empty file encountered in set 'Biology 4' for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0. Skipping.
+[2025-04-21T19:27:47.963Z] INFO: Flashcards retrieved successfully for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0, set: Biology 4
+[2025-04-21T19:27:49.330Z] INFO: Fetched flashcard set names for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0: , Biology 4, Biology 5, Biology 6, Biology 7, biology 6, react
+[2025-04-21T19:27:49.330Z] INFO: Retrieved all flashcard sets for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:27:49.331Z] INFO: Fetched flashcard set names for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0: , Biology 4, Biology 5, Biology 6, Biology 7, biology 6, react
+[2025-04-21T19:27:49.332Z] INFO: Retrieved all flashcard sets for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:27:50.901Z] INFO: Flashcards retrieved successfully for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0, set: react
+[2025-04-21T19:28:01.807Z] INFO: User fetched: test5
+[2025-04-21T19:28:01.816Z] INFO: User fetched: test5
+[2025-04-21T19:28:02.107Z] INFO: Extracted set names: 
+[2025-04-21T19:28:02.107Z] INFO: All Sets: Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:28:02.117Z] INFO: Extracted set names: 
+[2025-04-21T19:28:02.117Z] INFO: All Sets: Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:28:21.637Z] INFO: User fetched: test5
+[2025-04-21T19:28:21.648Z] INFO: User fetched: test5
+[2025-04-21T19:28:21.947Z] INFO: Extracted set names: 
+[2025-04-21T19:28:21.947Z] INFO: All Sets: Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:28:21.957Z] INFO: Extracted set names: 
+[2025-04-21T19:28:21.957Z] INFO: All Sets: Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:30:26.039Z] INFO: User fetched: test5
+[2025-04-21T19:30:26.042Z] INFO: User fetched: test5
+[2025-04-21T19:30:26.048Z] INFO: Fetching user with username: test5
+[2025-04-21T19:30:26.285Z] INFO: Fetching profile picture with key: profile-pictures/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.jpg
+[2025-04-21T19:30:26.299Z] INFO: Profile picture retrieved successfully for user: test5
+[2025-04-21T19:30:29.500Z] INFO: Fetched flashcard set names for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0: , Biology 4, Biology 5, Biology 6, Biology 7, biology 6, react
+[2025-04-21T19:30:29.500Z] INFO: Retrieved all flashcard sets for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:30:29.532Z] INFO: Fetched flashcard set names for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0: , Biology 4, Biology 5, Biology 6, Biology 7, biology 6, react
+[2025-04-21T19:30:29.532Z] INFO: Retrieved all flashcard sets for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:30:49.176Z] INFO: Flashcards generated for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:30:55.623Z] INFO: User fetched: test5
+[2025-04-21T19:30:55.629Z] INFO: Fetching user with username: test5
+[2025-04-21T19:30:55.633Z] INFO: User fetched: test5
+[2025-04-21T19:30:55.637Z] INFO: Fetching user with username: test5
+[2025-04-21T19:30:55.667Z] INFO: Fetching profile picture with key: profile-pictures/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.jpg
+[2025-04-21T19:30:55.669Z] INFO: Profile picture retrieved successfully for user: test5
+[2025-04-21T19:30:55.880Z] INFO: Fetching profile picture with key: profile-pictures/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.jpg
+[2025-04-21T19:30:55.883Z] INFO: Profile picture retrieved successfully for user: test5
+[2025-04-21T19:30:56.811Z] INFO: Fetched flashcard set names for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0: , Biology 4, Biology 5, Biology 6, Biology 7, biology 6, react
+[2025-04-21T19:30:56.812Z] INFO: Retrieved all flashcard sets for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:30:56.815Z] INFO: Fetched flashcard set names for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0: , Biology 4, Biology 5, Biology 6, Biology 7, biology 6, react
+[2025-04-21T19:30:56.815Z] INFO: Retrieved all flashcard sets for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:31:05.979Z] INFO: Flashcards generated for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:31:11.368Z] INFO: Saving flashcard set 'Biology 4' for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.
+[2025-04-21T19:31:11.527Z] INFO: Flashcard set file saved to S3 at flashcards/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0/Biology 4/b2c7e8c5-88e4-432c-8a7d-1f8f87667be0.json
+[2025-04-21T19:31:11.593Z] INFO: Metadata for flashcard set 'Biology 4' (ID: b2c7e8c5-88e4-432c-8a7d-1f8f87667be0) saved for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.
+[2025-04-21T19:31:11.593Z] INFO: Flashcard set 'Biology 4' saved successfully for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.
+[2025-04-21T19:31:11.593Z] INFO: Flashcard set saved for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0, set name: Biology 4
+[2025-04-21T19:31:18.815Z] INFO: User fetched: test5
+[2025-04-21T19:31:18.823Z] INFO: Fetching user with username: test5
+[2025-04-21T19:31:18.828Z] INFO: User fetched: test5
+[2025-04-21T19:31:18.835Z] INFO: Fetching user with username: test5
+[2025-04-21T19:31:18.942Z] INFO: Fetching profile picture with key: profile-pictures/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.jpg
+[2025-04-21T19:31:18.945Z] INFO: Profile picture retrieved successfully for user: test5
+[2025-04-21T19:31:18.946Z] INFO: Fetching profile picture with key: profile-pictures/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.jpg
+[2025-04-21T19:31:18.952Z] INFO: Profile picture retrieved successfully for user: test5
+[2025-04-21T19:31:22.359Z] INFO: Fetched flashcard set names for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0: , Biology 4, Biology 5, Biology 6, Biology 7, biology 6, react
+[2025-04-21T19:31:22.359Z] INFO: Retrieved all flashcard sets for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:31:22.365Z] INFO: Fetched flashcard set names for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0: , Biology 4, Biology 5, Biology 6, Biology 7, biology 6, react
+[2025-04-21T19:31:22.365Z] INFO: Retrieved all flashcard sets for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:31:24.414Z] WARN: Empty file encountered in set 'Biology 4' for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0. Skipping.
+[2025-04-21T19:31:24.414Z] INFO: Flashcards retrieved successfully for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0, set: Biology 4
+[2025-04-21T19:31:24.420Z] WARN: Empty file encountered in set 'Biology 4' for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0. Skipping.
+[2025-04-21T19:31:24.420Z] INFO: Flashcards retrieved successfully for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0, set: Biology 4
+[2025-04-21T19:31:43.290Z] INFO: Flashcards generated for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:31:49.983Z] INFO: Saving flashcard set 'Space 1' for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.
+[2025-04-21T19:31:50.136Z] INFO: Flashcard set file saved to S3 at flashcards/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0/Space 1/8bba70a8-73b6-4e6a-994c-f6d95a604a8b.json
+[2025-04-21T19:31:50.171Z] INFO: Metadata for flashcard set 'Space 1' (ID: 8bba70a8-73b6-4e6a-994c-f6d95a604a8b) saved for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.
+[2025-04-21T19:31:50.172Z] INFO: Flashcard set 'Space 1' saved successfully for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.
+[2025-04-21T19:31:50.172Z] INFO: Flashcard set saved for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0, set name: Space 1
+[2025-04-21T19:31:54.083Z] INFO: User fetched: test5
+[2025-04-21T19:31:54.089Z] INFO: Fetching user with username: test5
+[2025-04-21T19:31:54.097Z] INFO: User fetched: test5
+[2025-04-21T19:31:54.099Z] INFO: Fetching user with username: test5
+[2025-04-21T19:31:54.121Z] INFO: Fetching profile picture with key: profile-pictures/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.jpg
+[2025-04-21T19:31:54.123Z] INFO: Profile picture retrieved successfully for user: test5
+[2025-04-21T19:31:54.130Z] INFO: Fetching profile picture with key: profile-pictures/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.jpg
+[2025-04-21T19:31:54.132Z] INFO: Profile picture retrieved successfully for user: test5
+[2025-04-21T19:31:56.854Z] INFO: Fetched flashcard set names for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0: , Biology 4, Biology 5, Biology 6, Biology 7, Space 1, biology 6, react
+[2025-04-21T19:31:56.854Z] INFO: Retrieved all flashcard sets for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:31:56.856Z] INFO: Fetched flashcard set names for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0: , Biology 4, Biology 5, Biology 6, Biology 7, Space 1, biology 6, react
+[2025-04-21T19:31:56.857Z] INFO: Retrieved all flashcard sets for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:31:59.260Z] INFO: Flashcards retrieved successfully for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0, set: Space 1
+[2025-04-21T19:35:51.656Z] INFO: Examss generated for user: USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0
+[2025-04-21T19:35:55.464Z] INFO: Saving exam set 'Space 1' for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.
+[2025-04-21T19:35:55.653Z] INFO: Flashcard set file saved to S3 at exams/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0/Space 1/ee55a150-8002-4cb7-8087-6f1fd37f7a85.json
+[2025-04-21T19:35:55.830Z] INFO: Metadata for flashcard set 'Space 1' (ID: ee55a150-8002-4cb7-8087-6f1fd37f7a85) saved for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.
+[2025-04-21T19:35:55.830Z] INFO: Exam set 'Space 1' saved successfully for user USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.
+[2025-04-21T19:36:00.805Z] INFO: User fetched: test5
+[2025-04-21T19:36:00.811Z] INFO: Fetching user with username: test5
+[2025-04-21T19:36:00.814Z] INFO: User fetched: test5
+[2025-04-21T19:36:00.819Z] INFO: Fetching user with username: test5
+[2025-04-21T19:36:00.854Z] INFO: Fetching profile picture with key: profile-pictures/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.jpg
+[2025-04-21T19:36:00.856Z] INFO: Profile picture retrieved successfully for user: test5
+[2025-04-21T19:36:00.939Z] INFO: Fetching profile picture with key: profile-pictures/USER#e8fbb47f-0cae-4501-9196-eb8959dacbf0.jpg
+[2025-04-21T19:36:00.941Z] INFO: Profile picture retrieved successfully for user: test5
+[2025-04-21T19:36:05.350Z] INFO: User fetched: test5
+[2025-04-21T19:36:05.360Z] INFO: User fetched: test5
+[2025-04-21T19:36:05.489Z] INFO: Extracted set names: 
+[2025-04-21T19:36:05.489Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:36:05.490Z] INFO: Extracted set names: 
+[2025-04-21T19:36:05.490Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:36:11.115Z] INFO: User fetched: test5
+[2025-04-21T19:36:11.125Z] INFO: User fetched: test5
+[2025-04-21T19:36:11.305Z] INFO: Extracted set names: 
+[2025-04-21T19:36:11.305Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:36:11.317Z] INFO: Extracted set names: 
+[2025-04-21T19:36:11.317Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:36:52.184Z] INFO: User fetched: test5
+[2025-04-21T19:36:52.197Z] INFO: User fetched: test5
+[2025-04-21T19:36:52.477Z] INFO: Extracted set names: 
+[2025-04-21T19:36:52.477Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:36:52.491Z] INFO: Extracted set names: 
+[2025-04-21T19:36:52.491Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:38:21.981Z] INFO: Fetching user with username: test5
+[2025-04-21T19:38:22.250Z] INFO: Fetching user with username: test5
+[2025-04-21T19:38:22.376Z] INFO: Fetching user with username: test5
+[2025-04-21T19:38:22.412Z] INFO: User logged in: test5
+[2025-04-21T19:38:23.708Z] INFO: User fetched: test5
+[2025-04-21T19:38:23.911Z] INFO: Extracted set names: 
+[2025-04-21T19:38:23.911Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:39:03.786Z] INFO: User fetched: test5
+[2025-04-21T19:39:03.790Z] INFO: User fetched: test5
+[2025-04-21T19:39:04.071Z] INFO: Extracted set names: 
+[2025-04-21T19:39:04.071Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:39:04.076Z] INFO: Extracted set names: 
+[2025-04-21T19:39:04.076Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:40:20.882Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:21.459Z] INFO: User fetched: test5
+[2025-04-21T19:40:22.070Z] INFO: User fetched: test5
+[2025-04-21T19:40:23.404Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:23.570Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:27.477Z] INFO: User fetched: test5
+[2025-04-21T19:40:27.481Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:35.403Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:37.827Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:37.954Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:37.987Z] INFO: User logged in: test5
+[2025-04-21T19:40:39.829Z] INFO: User fetched: test5
+[2025-04-21T19:40:40.783Z] INFO: Extracted set names: 
+[2025-04-21T19:40:40.783Z] INFO: result: 
+[2025-04-21T19:40:40.783Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:40:41.636Z] INFO: Extracted set names: 
+[2025-04-21T19:40:41.636Z] INFO: result: 
+[2025-04-21T19:40:41.636Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:40:48.093Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:48.229Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:48.260Z] INFO: User logged in: test5
+[2025-04-21T19:40:48.719Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:48.848Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:48.891Z] INFO: User logged in: test5
+[2025-04-21T19:40:49.231Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:50.441Z] INFO: Extracted set names: 
+[2025-04-21T19:40:50.442Z] INFO: result: 
+[2025-04-21T19:40:50.442Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:40:52.343Z] INFO: Fetching user with username: test5
+[2025-04-21T19:40:52.379Z] INFO: User logged in: test5
+[2025-04-21T19:40:54.077Z] INFO: Extracted set names: 
+[2025-04-21T19:40:54.077Z] INFO: result: 
+[2025-04-21T19:40:54.077Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:41:04.171Z] INFO: Fetching user with username: test5
+[2025-04-21T19:41:04.280Z] INFO: Fetching user with username: test5
+[2025-04-21T19:41:04.313Z] INFO: User logged in: test5
+[2025-04-21T19:41:31.562Z] INFO: Fetching user with username: test5
+[2025-04-21T19:41:37.429Z] INFO: User fetched: test5
+[2025-04-21T19:41:53.775Z] INFO: result: 
+[2025-04-21T19:41:53.775Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:42:01.113Z] INFO: Fetching user with username: test5
+[2025-04-21T19:42:01.242Z] INFO: Fetching user with username: test5
+[2025-04-21T19:42:01.275Z] INFO: User logged in: test5
+[2025-04-21T19:42:28.256Z] INFO: Fetching user with username: test5
+[2025-04-21T19:42:51.971Z] INFO: Fetching user with username: test5
+[2025-04-21T19:43:26.274Z] INFO: Fetching user with username: test5
+[2025-04-21T19:43:26.764Z] INFO: Fetching user with username: test5
+[2025-04-21T19:43:26.948Z] INFO: Fetching user with username: test5
+[2025-04-21T19:43:27.032Z] INFO: User logged in: test5
+[2025-04-21T19:43:30.705Z] INFO: User fetched: test5
+[2025-04-21T19:43:31.366Z] INFO: result: 
+[2025-04-21T19:43:31.366Z] INFO: All Sets: Space 1,Space 1,Space 1,Space 2,biology 1,react
+[2025-04-21T19:45:23.871Z] INFO: User fetched: test5
+[2025-04-21T19:45:23.891Z] INFO: User fetched: test5
+[2025-04-21T19:45:24.338Z] INFO: result: 
+[2025-04-21T19:45:24.339Z] INFO: All Sets: Space 1,Space 2,biology 1,react
+[2025-04-21T19:45:24.343Z] INFO: result: 
+[2025-04-21T19:45:24.343Z] INFO: All Sets: Space 1,Space 2,biology 1,react

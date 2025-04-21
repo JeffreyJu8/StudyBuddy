@@ -65,6 +65,8 @@ async function assignExam(examSet, examId, teacherId, studentId) {
 async function getAllSets(userId){
     const result = await examDAO.getAllSets(userId);
 
+    logger.info("result: ", result);
+
     return result;
 }
 

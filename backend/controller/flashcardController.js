@@ -6,10 +6,12 @@ const { promptifyFlashCards } = require("../util/geminiPrompt");
 const flashcardService = require('../service/flashcardService');
 const validateSetMiddleware = require('../middleware/flashcardSetMiddleware');
 const logger = require("../util/logger");
+const { getGeminiKey } = require('../util/secretKey.js');
+
 
 router.post("/", authenticateToken, async (req, res) => {
     try {
-        const geminiAPIKey = getGeminiKey(); //process.env.GOOGLE_GEMINI_API_KEY;
+        const geminiAPIKey = await getGeminiKey(); //process.env.GOOGLE_GEMINI_API_KEY;
         const ai = new GoogleGenerativeAI(geminiAPIKey);
         const model = ai.getGenerativeModel({ model: "gemini-2.0-flash" });
         
